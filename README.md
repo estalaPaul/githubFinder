@@ -17,7 +17,11 @@ To use this website you only need to clone this repository and follow the next s
    - `header = "User-Agent: GITHUB_USERNAME"`
 5. Edit the php/getUser.php and php/getRepos.php files, line 4, so that it points to your .ini file.
    - `$config = parse_ini_file('routetoinifile');`
-  
+    
+## See Live
+
+To see this website functioning, follow this [link](https://estalapaul.me/githubfinder/).
+
 ## Disclaimers
 
 This website was created for learning purposes. Feel free to use, distrubute and modify it as you see fit. 
