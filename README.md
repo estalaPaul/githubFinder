@@ -10,7 +10,7 @@ To use this website you only need to clone this repository and follow the next s
 2. Go to Developer Settings.
 3. Create a new OAuthAPP. This will give you a client secret and a client id. 
 4. Add ENV variables for `GH_CLIENT_ID` and `GH_CLIENT_SECRET`.
-5. Change to your GH username [here](https://github.com/estalaPaul/githubFinder/blob/master/php/getUser.php#L4) and [here](https://github.com/estalaPaul/githubFinder/blob/master/php/getUser.php#L4).
+5. Change to your GH username [here](https://github.com/estalaPaul/githubFinder/blob/master/php/getUser.php#L4) and [here](https://github.com/estalaPaul/githubFinder/blob/master/php/getRepos.php#L4).
     
 ## See Live
 
