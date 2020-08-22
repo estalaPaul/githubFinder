@@ -9,18 +9,12 @@ To use this website you only need to clone this repository and follow the next s
 1. Go to your GitHub settings.
 2. Go to Developer Settings.
 3. Create a new OAuthAPP. This will give you a client secret and a client id. 
-4. Create a .ini file and fill with the next values: 
-   - `clientId = "CLIENT_ID"`
-   - `clientSecret = "CLIENT_SECRET"`
-   - `reposCount = NUMBER_OF_REPOS_TO_SHOW`
-   - `reposSort = "FILTER_TO_SORT_REPOS"`
-   - `header = "User-Agent: GITHUB_USERNAME"`
-5. Edit the php/getUser.php and php/getRepos.php files, line 4, so that it points to your .ini file.
-   - `$config = parse_ini_file('routetoinifile');`
+4. Add ENV variables for `GH_CLIENT_ID` and `GH_CLIENT_SECRET`.
+5. Change to your GH username [here](https://github.com/estalaPaul/githubFinder/blob/master/php/getUser.php#L4) and [here](https://github.com/estalaPaul/githubFinder/blob/master/php/getUser.php#L4).
     
 ## See Live
 
-To see this website functioning, follow this [link](https://estalapaul.me/githubfinder/).
+To see this website functioning, follow this [link](https://pulpo-gh-finder.herokuapp.com/index.html).
 
 ## Disclaimers
 
