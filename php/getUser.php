@@ -14,6 +14,7 @@
         curl_setopt($userCh, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($userCh, CURLOPT_RETURNTRANSFER, true);
         $profile = curl_exec($userCh);
+        curl_close($userCh);
         echo $profile;
     }
 ?>
